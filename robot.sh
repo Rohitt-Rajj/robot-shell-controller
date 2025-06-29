@@ -39,7 +39,7 @@ echo "2. Turn Left"
 echo "3. Turn Right"
 echo "4. Stop"
 echo "5. Check Sensor"
-echo "6. Help"
+
 read -p "Choose an action [1-6]: " choice
 
 case $choice in
@@ -48,6 +48,6 @@ case $choice in
     3) turn_right ;;
     4) stop ;;
     5) check_sensor ;;
-    6) Help;;
+    
     *) echo "Invalid option" ;;
 esac
