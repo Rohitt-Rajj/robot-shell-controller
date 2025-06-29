@@ -23,6 +23,7 @@ A simple bash-based shell controller that simulates robot movement and obstacle 
 chmod +x robot.sh
 ./robot.sh
 
+```bash
 Robot Shell Controller
 1. Move Forward
 2. Turn Left
