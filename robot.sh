@@ -4,7 +4,7 @@ LOG_FILE="robot.log"
 SENSOR_FILE="sensor.txt"
 
 log_action() {
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> $LOG_FILE
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "$LOG_FILE"
 }
 
 move_forward() {
@@ -24,7 +24,7 @@ stop() {
 }
 
 check_sensor() {
-    if grep -q "obstacle" $SENSOR_FILE; then
+    if grep -q "obstacle" "$SENSOR_FILE"; then
         log_action "Obstacle detected! Stopping robot."
         stop
     else
@@ -40,14 +40,9 @@ echo "3. Turn Right"
 echo "4. Stop"
 echo "5. Check Sensor"
 
-read -p "Choose an action [1-6]: " choice
+read -p "Choose an action [1-5]: " choice
 
 case $choice in
     1) move_forward ;;
-    2) turn_left ;;
-    3) turn_right ;;
-    4) stop ;;
-    5) check_sensor ;;
-    
-    *) echo "Invalid option" ;;
-esac
+    2) turn_left_
+
