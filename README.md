@@ -10,6 +10,7 @@ A simple bash-based shell controller that simulates robot movement and obstacle 
 
 ## 🛠️ Features
 
+
 - Move Forward
 - Turn Left
 - Turn Right
@@ -22,3 +23,7 @@ A simple bash-based shell controller that simulates robot movement and obstacle 
 ```bash
 chmod +x robot.sh
 ./robot.sh
+
+
+
+
