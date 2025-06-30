@@ -25,5 +25,8 @@ chmod +x robot.sh
 ./robot.sh
 
 
-<pre>```cat robot.log```<pre>
+```
+cat robot.log
+```
+
 
