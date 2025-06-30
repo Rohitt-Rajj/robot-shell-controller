@@ -25,8 +25,10 @@ chmod +x robot.sh
 ./robot.sh
 
 
-```
+
+## How to see the Output 
+
+```bash
 cat robot.log
-```
 
 
