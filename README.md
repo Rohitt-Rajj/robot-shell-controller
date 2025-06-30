@@ -26,9 +26,3 @@ chmod +x robot.sh
 
 
 
-## 📤 **How to See the Output**
-
-To view the robot's action log:
-
-cat robot.log
-
