@@ -30,6 +30,5 @@ chmod +x robot.sh
 
 To view the robot's action log:
 
-```bash
 cat robot.log
 
